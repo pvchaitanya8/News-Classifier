@@ -1,0 +1,80 @@
+/* Global styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(background2.png);
+    background-position: center; /* Center background image */
+    background-repeat: no-repeat; /* Don't stretch background image */
+    background-size: cover; /* Fit background image to viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make background image visible in full viewport */
+    color: white; /* Set all text to white */
+}
+
+/* Container */
+.container {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Title */
+.title {
+  transition: color 0.3s ease-in-out;
+  margin: 0;
+  padding: 20px 0;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title:hover {
+  text-transform: uppercase;
+  transform: scale(1.01); 
+  color: #E25E3E; /* Set text color to white */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+}
+
+.category {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text {
+    line-height: 1.5;
+    text-align: center; 
+}
+.view-history {
+  background-color: #E36414; /* Green color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.view-history:hover {
+  transform: scale(0.9);
+  background-color: #9A031E; /* Darker green on hover */
+}
