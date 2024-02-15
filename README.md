@@ -43,3 +43,6 @@ This project is aimed at creating a News Article Classifier using Python. The sy
 - The application uses MongoDB to store processed articles, including their input source, predicted categories, and timestamps.
 
 ## Images of Output
+![image](https://github.com/pvchaitanya8/News-Classifier/assets/93573686/f2acd24b-e908-4981-9a28-785bd6fbae6c)
+![image](https://github.com/pvchaitanya8/News-Classifier/assets/93573686/127207cf-2736-4188-9c9c-6e814336029c)
+
