@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>News Article Classifier</title>
+  <link rel="stylesheet" href="static/css/style1.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Predict News Category</h1>
+    <form action="/predict" method="post" class="article-form">
+      <label for="article_text">
+        <span style="color: rgb(216, 225, 255);">Enter News Article: (Text / URL)</span>
+      </label>
+      <textarea id="article_text" name="article_text" rows="5"></textarea>
+      <br>
+      <button type="submit" class="classify-button">Predict Category</button>
+      <div class="loading-indicator" style="display: none;">
+        <img src="static/css/loading.gif" alt="Loading..." />
+      </div>
+      <div class="error-message" style="display: none;"></div>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+flask
+pandas
+sklearn
+pickle
+newspaper
+pymongo
+datetime
